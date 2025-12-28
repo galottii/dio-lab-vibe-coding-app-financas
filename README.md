@@ -1,4 +1,95 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App  de Finanças Pessoais de Valdeci com Vibe Coding
+
+PRD Refinado no copilot web:
+
+```txt
+# PRD – Aplicativo de Organização de Finanças Pessoais Conversacional
+
+## 1. Contexto
+O aplicativo tem como objetivo simplificar o controle financeiro pessoal por meio de interações em linguagem natural. Em vez de formulários complexos ou planilhas, o usuário conversa com o app para registrar gastos, definir metas e receber recomendações de economia.
+
+## 2. Problema
+Atualmente, muitos usuários abandonam aplicativos de finanças porque:
+- Exigem entradas manuais excessivas.
+- Oferecem pouca personalização.
+- Tornam o processo burocrático e pouco intuitivo.
+
+O desafio é criar uma experiência fluida, natural e personalizada que incentive o usuário a manter o hábito de organizar suas finanças.
+
+## 3. Público-Alvo
+- Pessoas que desejam iniciar o controle financeiro de forma prática.
+- Usuários iniciantes que não têm familiaridade com planilhas ou apps tradicionais.
+- Pessoas que buscam dicas simples e aplicáveis para economizar.
+
+## 4. Funcionalidades-Chave
+1. Registro de gastos via chat: o usuário descreve em linguagem natural e o app interpreta.
+2. Classificação automática de transações: categorização inteligente (alimentação, transporte, lazer etc.).
+3. Metas financeiras: definição e acompanhamento de objetivos (ex.: guardar R$200/mês).
+4. Agente Financeiro: recomendações personalizadas de economia e alertas de hábitos de consumo.
+5. Relatórios simples e personalizados: visualizações claras (gráficos, listas) adaptadas ao perfil do usuário.
+
+## 5. Entregável da IA (MVP)
+- Principais telas:
+  - Tela de chat (interação principal).
+  - Tela de metas (definição e progresso).
+  - Tela de relatórios (gráficos e insights).
+- Recursos necessários:
+  - Processamento de linguagem natural (NLP).
+  - Motor de categorização automática.
+  - Sistema de recomendações.
+  - Visualização de dados simples.
+- Validação inicial:
+  - Testar com grupo piloto de usuários iniciantes.
+-Interaçoes com app- lovable:
+
+> crie um app de finanças pessoais com base no seguinte {PRD}: Product requeriment document
+>Entrada de dados: Apenas via chat
+>Escopo: MVP Simples
+>Autenticação: Sim, com email/senha
+>Design: Colorido e amigável
+
+-Resultado fina no lovable:https://vision-money-talk.lovable.app
+>
+<img width="1867" height="905" alt="image" src="https://github.com/user-attachments/assets/4c5f9c01-f08d-4233-bab6-95c31babdb2a" />
+>
+<img width="1137" height="840" alt="Captura de tela 2025-12-28 015936" src="https://github.com/user-attachments/assets/01e9cd26-91fd-432e-9bcf-d71fa0a0cf91" />
+
+
+
+## Funcionalidades Visíveis (Tela de Login)
+- Login com email e senha
+- Opção de criação de conta para novos usuários
+- Interface simples e direta, voltada para iniciantes
+
+## Funcionalidades Derivadas do PRD
+1. **Interação via Chat**  
+   Registro de gastos e metas por meio de conversas em linguagem natural.
+
+2. **Classificação Automática**  
+   Categorização inteligente das transações (alimentação, transporte, lazer etc.).
+
+3. **Metas Financeiras**  
+   Definição e acompanhamento de objetivos financeiros (ex.: guardar R$200/mês).
+
+4. **Agente Financeiro**  
+   Recomendações personalizadas de economia e alertas sobre hábitos de consumo.
+
+5. **Relatórios Personalizados**  
+   Visualizações simples e adaptadas ao perfil do usuário (gráficos e listas).
+
+## MVP – Entregáveis
+- **Principais telas**: chat, metas, relatórios
+- **Recursos necessários**: NLP, categorização automática, sistema de recomendações, visualização de dados
+- **Validação inicial**: testes com grupo piloto, medir engajamento e clareza das recomendações
+
+
+  
+  - Medir engajamento (quantidade de interações).
+  - Avaliar clareza das recomendações e relatórios.
+```
+
+
+´´´markdown
 
 Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
 
@@ -73,17 +164,30 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
 No README do seu repositório, inclua:
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
+Reflexão:
+
+- Seu **prompt final** (PRD);
+https://vision-money-talk.lovable.app
+- Prints ou pequenos vídeos das interações com a IA; 
+  -<img width="1142" height="852" alt="Captura de tela 2025-12-28 015330" src="https://github.com/user-attachments/assets/9be1468f-a4c5-4e42-9bde-c350ab858d93" />
+  -<img width="1137" height="840" alt="Captura de tela 2025-12-28 015936" src="https://github.com/user-attachments/assets/b529d27a-b3a4-4509-bfd0-47468338d6f7" />
+
+
+
+
 - Um resumo do que o seu **App de Finanças Pessoais** faz;  
 - Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+
+  - O que funcionou bem?  O copilot e o lovable são fenomenais.O PRD ficou perfeito.
+  - O que não funcionou como o esperado? tive dificuldade em subir arquivos 
+  - O que aprendeu sobre conversar com IAs?São super inteligentes.
+    -Me surpreendi com tanta tcnologia e a capacidade de criar APP de finanças.
+    Pretendo interagir mais com vibe coding,copilot,lovable.
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
 
 ## 💬 Conclusão
+
 
 Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
